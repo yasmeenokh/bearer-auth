@@ -16,7 +16,6 @@ Start the server using nodemon/npm start
 Visit http://localhost:PORT at the PORT number you've assigned in your .env
 
 ## Routes
-* https://yasmeen-bearer-auth.herokuapp.com/
 * https://yasmeen-bearer-auth.herokuapp.com/bad
 * https://yasmeen-bearer-auth.herokuapp.com/foo
 * https://yasmeen-bearer-auth.herokuapp.com/singin
