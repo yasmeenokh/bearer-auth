@@ -17,7 +17,9 @@ users.virtual('token').get(function () {
     test: 'test',
   };
   console.log('from the virtual');
-  return jwt.sign(tokenObject, process.env.SECRET, {expiresIn: '15m'});
+  return jwt.sign(tokenObject, process.env.SECRET, 
+    {expiresIn: '15m'},
+  );
 });
 
 users.pre('save', async function () {
